@@ -6,6 +6,6 @@ A little tool that installs the fsr 2.0 mod for WDL
 V 1.0:
 - Initial release
 
-# UI
+# GUI
 
 ![alt text](https://i.imgur.com/66WCw1Q.png)
