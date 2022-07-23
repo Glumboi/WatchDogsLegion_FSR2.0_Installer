@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Watch Dogs Legion FSR 2.0 Installer.exe" version="1.0.0.0" publicKeyToken="ff709ccdf099e3f1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon_wdlfsr2installer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Watch Dogs Legion FSR 2.0 Installer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Watch Dogs Legion FSR 2.0 Installer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.Licensing.dll" size="1304576">
+      <assemblyIdentity name="Bunifu.Licensing" version="3.2.0.0" publicKeyToken="F89B4760BA7DCB6B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NBDK7wy1OOiDs+Si74vCbBrrfQcgYCHPMfM4LVzey6E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuButton.dll" size="111104">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuButton" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yheRjXG2N1owmQl56PAlqu8nZOBqkIIQvgtmXfv3+NA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuTextbox.dll" size="116224">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuTextBox" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jXxv4rm1eTx6uIWIW6zmTx7o3q66TUMai2lyZrY7oZo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAPICodePack.dll" size="114176">
+      <assemblyIdentity name="Microsoft.WindowsAPICodePack" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IeFA3K+j4lE3OnEkI7sRFXBzfpXk3PtvVoaNcIavdoY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAPICodePack.Shell.dll" size="587776">
+      <assemblyIdentity name="Microsoft.WindowsAPICodePack.Shell" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bqJb5JpOlsQ8ILwp6xztB49OC87EZzznIiccd7wvoSE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.WindowsAPICodePack.ShellExtensions.dll" size="38400">
+      <assemblyIdentity name="Microsoft.WindowsAPICodePack.ShellExtensions" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>whvEhHrDx122S196/rD8sOIrpDa324BpJSO0gQsEbSI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.dll" size="4885504">
+      <assemblyIdentity name="Telerik.WinControls" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mlzEaHGU9wBrFHwgWoURFSiPuP/4DXHXW2Nk11hXdnM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.Themes.CrystalDark.dll" size="253952">
+      <assemblyIdentity name="Telerik.WinControls.Themes.CrystalDark" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dxGR1kt2P28mfGINs7JDGzvrVeIVYL2azaD9fx8qqNA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.WinControls.UI.dll" size="7066112">
+      <assemblyIdentity name="Telerik.WinControls.UI" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q7CEyACcAPg5RxNDZPvHI203sC55XHx77jLhtlqeLBU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TelerikCommon.dll" size="915456">
+      <assemblyIdentity name="TelerikCommon" version="2022.1.118.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NjVf0iZaU0nmpQp/g4OEr2teqRkIW/x7IOep75fFR7Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Watch Dogs Legion FSR 2.0 Installer.exe" size="129000">
+      <assemblyIdentity name="Watch Dogs Legion FSR 2.0 Installer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tvj8mcgAX7JDVg9myM3se09opR+HQNple2xWrpjvBLo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Assets\Browse_Icon.png" size="12245">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WbHMLurB17Hl8Pttapp83xCPYZpctgqHWJHHlku672g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Browse_Icon_new.png" size="20474">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PzMVAz6Tnwk5vTriJOwj9Y4/Qqs4+IUHNl5u8NusJYc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Browse_Icon_new2.png" size="12365">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uGyfg++hxT/2QZ8rk0U7D2XAaSobHiPwQFwSpK+w7no=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Download_Icon.png" size="5671">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aA93200h8eYYMOGaz6LVt+UiFdPcqj7TC/LQf6hxfWo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Icon_Download.png" size="4782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rQgUBHqZ1Vt3pGSOpRS5KJz8xIuJC1Jb1qbTPGIv0x4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Icon_wdlfsr2installer.ico" size="11769">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QziayY3xbgwpSKXa5F4oXg8QBDRFZvoZ79GIugcFwf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Install_Icon_new.png" size="6321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O2Hn+bdu1OdPwQQVntHqL6vvtaHoz+NZjnjAyxDniRk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Uninstall_Icon.png" size="15172">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PVVZOAqyz8QwJQfHbOvlePxz3ykN0RUpUZ587L7KYSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icon_wdlfsr2installer.ico" size="11769">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QziayY3xbgwpSKXa5F4oXg8QBDRFZvoZ79GIugcFwf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Watch Dogs Legion FSR 2.0 Installer.exe.config" size="996">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eA2ccsiITmm17D06xBUGjWoVNzD9qc2ZwUSIG7vYa6w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IK3HGNI\Merlin" issuerKeyHash="99217e4be2c112154cea3d531821c7f056150391" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S/afYMLwRxqbyn/i7dTm47hd+gRPzHrY/kOavsTPEs8=</DigestValue></Reference></SignedInfo><SignatureValue>J8l1F1Dl1FHpcFkgsjM/kF7S8Y8zdslJntvbEOOCsVJnMqD+bVI2SuhfYLT2RlyPcUWzN36a796HSKA0Dfufu52gSRO1DY6nZRP2m82C/XuVBztJ3XUoV9iLax1NbZvOV4WXrKtEY8zWZph4GzwU2LSVMC+xKg/bMEF/c64iv2s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6TV3HO3gcLOfsaOGy+B26h6/yjhSFxq4KFpiNAjP37xhFbAEJ7JlpvFs1Xmwigpgp6O7skIYNTKy+q4Ewm3uINsozZnN9l+WFSy4CadUOI1mr5MQyKD9NSLzHpAHtT8igLPJq6XDHx6ZEkW+eUgZ1qmlx87sOh6sPvlboqWY/Fk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cf12cfc4be9a43fed87acc4f04fa5db8e3e6d4ede27fca9b1a47f0c2609ff64b" Description="" Url=""><as:assemblyIdentity name="Watch Dogs Legion FSR 2.0 Installer.exe" version="1.0.0.0" publicKeyToken="ff709ccdf099e3f1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IK3HGNI\Merlin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E3BPJdHHj9OL55ll4Q0DiG3x5o0tZ16YG9msFXvy8l4=</DigestValue></Reference></SignedInfo><SignatureValue>jOh4/IVQcIVRCNiyDF3MVgaSgrlfPpw5165IRj+Ma8xfEfwO4jsKHU2n3sp88YKhhwLND8tqhgZW6S0mlbSiZspBXNKsTWddqTYGO4Blbii9tH7jM00MdunYKQhapczARKx6BIBJl6/FqgsrzgKtzIj8P5XgbAeLWIVBXX3US70=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6TV3HO3gcLOfsaOGy+B26h6/yjhSFxq4KFpiNAjP37xhFbAEJ7JlpvFs1Xmwigpgp6O7skIYNTKy+q4Ewm3uINsozZnN9l+WFSy4CadUOI1mr5MQyKD9NSLzHpAHtT8igLPJq6XDHx6ZEkW+eUgZ1qmlx87sOh6sPvlboqWY/Fk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQJ5gDvIOO979D+q/jwqldazANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEkASwAzAEgARwBOAEkAXABNAGUAcgBsAGkAbjAeFw0yMjA3MjMxMzIxMDZaFw0yMzA3MjMxOTIxMDZaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ASQBLADMASABHAE4ASQBcAE0AZQByAGwAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpNXcc7eBws5+xo4bL4HbqHr/KOFIXGrgoWmI0CM/fvGEVsAQnsmWm8WzVebCKCmCno7uyQhg1MrL6rgTCbe4g2yjNmc32X5YVLLgJp1Q4jWavkxDIoP01IvMekAe1PyKAs8mrpcMfHpkSRb55SBnWqaXHzuw6Hqw++VuipZj8WQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADO6RATp3UpFmbz46ih5OTeUM1jDQKUwkezNbfc1kGaymdfVODWeBG73QG0z9S8dobLFkOEco0i7jlb0R6kRgOxf6oX/OVuZCU70jS70dbaPKtlkoKdmM2ce+o8buv3n79z5HK2UHxIcEqTj+VrOHhwgpBXEivCp66nH1n7sxQbt</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
