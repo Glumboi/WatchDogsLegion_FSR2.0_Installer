@@ -30,7 +30,7 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer.Core.Installer
 
         public static void RemoveDLLs(string path)
         {
-            //Gets all files in the ./bin folder and copies them to the gamepath + ./bin
+            //Gets all files in the ./bin folder and remoives them from the gamepath + ./bin
             FileHandler.DeleteFile(FileHandler.FindFirstFile(path + "./bin", "nvngx.dll"));
             FileHandler.DeleteFile(FileHandler.FindFirstFile(path + "./bin", "nvngx.ini"));
         }
