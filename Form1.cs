@@ -1,29 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Watch_Dogs_Legion_FSR_2._0_Installer.Core.FileMan;
 using Watch_Dogs_Legion_FSR_2._0_Installer.Core.Installer;
+using Glumboi.UI;
+using Watch_Dogs_Legion_FSR_2._0_Installer.Core.Ini;
 
 namespace Watch_Dogs_Legion_FSR_2._0_Installer
 {
-    public partial class Form1 : Form
+    public partial class Form1 : System.Windows.Forms.Form
     {
-        string _gamePath = Properties.Settings.Default.GameLocation;
+        private string _gamePath = Properties.Settings.Default.GameLocation;
 
-        [DllImport("DwmApi")] //System.Runtime.InteropServices
-        private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, int[] attrValue, int attrSize);
+        private ConfigIni _config = new ConfigIni();
 
         protected override void OnHandleCreated(EventArgs e)
         {
-            if (DwmSetWindowAttribute(Handle, 19, new[] { 1 }, 4) != 0)
-                DwmSetWindowAttribute(Handle, 20, new[] { 1 }, 4);
+            UIChanger.ChangeTitlebarToDark(Handle);
         }
 
         public Form1()
@@ -33,8 +25,12 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            InstallMod.InstallerPath = FileHandler.AssemblyDirectory;
+            //Creates the ini config file
+            _config.CreateConfig();
 
+            //Loads in the installer and game path
+            InstallMod.InstallerPath = FileHandler.AssemblyDirectory;
+            
             if(!string.IsNullOrEmpty(_gamePath))
             {
                 Textbox_Path.Text = _gamePath;
@@ -43,12 +39,14 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer
 
         private void Textbox_Path_TextChanged(object sender, EventArgs e)
         {
+            //Updates the game path
             _gamePath = Textbox_Path.Text;
             InstallMod.GamePath = Textbox_Path.Text;
         }
 
-        private void bunifuButton1_Click(object sender, EventArgs e)
+        private void Button_Browse_Click(object sender, EventArgs e)
         {
+            //Opens a folder browse dialog
             Textbox_Path.Text = FileHandler.OpenFolder();
             InstallMod.GamePath = Textbox_Path.Text;
         }
@@ -65,6 +63,7 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            //Checks if the gamepath is null and if not loads it in
             if(string.IsNullOrEmpty(_gamePath))
             {
                 Properties.Settings.Default.GameLocation = "Enter your WDL path here...";

@@ -1,6 +1,3 @@
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Watch Dogs Legion FSR 2.0 Installer.exe.config
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Watch Dogs Legion FSR 2.0 Installer.exe
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Watch Dogs Legion FSR 2.0 Installer.pdb
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Microsoft.WindowsAPICodePack.xml
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.xml
@@ -11,14 +8,19 @@ F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FS
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch_Dogs_Legion_FSR_2._0_Installer.Form1.resources
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch_Dogs_Legion_FSR_2._0_Installer.Properties.Resources.resources
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.csproj.GenerateResource.cache
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.exe.licenses
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.csproj.CoreCompileInputs.cache
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.csproj.CopyComplete
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.exe
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.pdb
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Watch Dogs Legion FSR 2.0 Installer.exe.manifest
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Watch Dogs Legion FSR 2.0 Installer.application
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.exe.manifest
-F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.application
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\System.Diagnostics.DiagnosticSource.xml
 F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\Watch Dogs Legion FSR 2.0 Installer.csproj.Fody.CopyLocal.cache
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\Microsoft.Toolkit.Uwp.Notifications.xml
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\System.ValueTuple.xml
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\FSR 2.0 Installer.exe.config
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\FSR 2.0 Installer.exe.manifest
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\FSR 2.0 Installer.application
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\FSR 2.0 Installer.exe
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\bin\Release\FSR 2.0 Installer.pdb
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\FSR 2.0 Installer.exe.licenses
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\FSR 2.0 Installer.exe.manifest
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\FSR 2.0 Installer.application
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\FSR 2.0 Installer.exe
+F:\visual studio\repos2\Watch Dogs Legion FSR 2.0 Installer\Watch Dogs Legion FSR 2.0 Installer\obj\Release\FSR 2.0 Installer.pdb

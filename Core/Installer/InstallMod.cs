@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Watch_Dogs_Legion_FSR_2._0_Installer.Core.FileMan;
+using Watch_Dogs_Legion_FSR_2._0_Installer.Core.Ini;
 
 namespace Watch_Dogs_Legion_FSR_2._0_Installer.Core.Installer
 {
@@ -23,14 +24,14 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer.Core.Installer
 
             foreach (var file in _fsrLoc)
             {
-                FileHandler.CopyFile(file, path + "./bin/" + Path.GetFileName(file));
+                FileHandler.CopyFile(file, path + "./" + ConfigVariables.GameBinName + "/" + Path.GetFileName(file));
             }
 
         }
 
         public static void RemoveDLLs(string path)
         {
-            //Gets all files in the ./bin folder and remoives them from the gamepath + ./bin
+            //Gets all files in the ./bin folder and copies them to the gamepath + ./bin
             FileHandler.DeleteFile(FileHandler.FindFirstFile(path + "./bin", "nvngx.dll"));
             FileHandler.DeleteFile(FileHandler.FindFirstFile(path + "./bin", "nvngx.ini"));
         }
@@ -70,17 +71,12 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer.Core.Installer
                 return;
             }
 
-            try
-            {
-                RemoveDLLs(GamePath);
-                ExecuteRegEdit(false, InstallerPath + "./Regedits");
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show($"Soemthing with the install process went wrong!\n\nDetailed error: \n{e}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            RemoveDLLs(GamePath);
+            ExecuteRegEdit(false, InstallerPath + "./Regedits");
+           
         }
 
+        //Executes all of the above funtions in a single function
         public static void InstallAll()
         {
             if (string.IsNullOrWhiteSpace(GamePath))

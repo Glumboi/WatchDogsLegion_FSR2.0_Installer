@@ -25,6 +25,7 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer.Core.FileMan
 
         public static string FindFirstFile(string dir, string file)
         {
+            //Returns a path + filename for a given filename in a location 
             if (System.IO.File.Exists(Path.Combine(dir, file)))
             {
                 return Path.Combine(dir, file);
@@ -67,6 +68,7 @@ namespace Watch_Dogs_Legion_FSR_2._0_Installer.Core.FileMan
         
         public static string OpenFolder()
         {
+            //Creates a open folder dialog to set the gamepath
             CommonOpenFileDialog dialog = new CommonOpenFileDialog();
             dialog.IsFolderPicker = true;
             if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
